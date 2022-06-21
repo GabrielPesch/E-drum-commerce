@@ -93,14 +93,14 @@ ul {
   display: flex;
   align-items: center;
 }
-.main-header .header-actions-menu .widhlist-container, .main-header .header-actions-menu .header-cart-container {
+.main-header .header-actions-menu .wishlist-container, .main-header .header-actions-menu .header-cart-container {
   position: relative;
   display: flex;
   flex-direction: column;
   text-align: center;
   margin-left: 2.5rem;
 }
-.main-header .header-actions-menu .widhlist-container .qty, .main-header .header-actions-menu .header-cart-container .qty {
+.main-header .header-actions-menu .wishlist-container .qty, .main-header .header-actions-menu .header-cart-container .qty {
   position: absolute;
   top: -10px;
   right: 2px;
@@ -112,10 +112,10 @@ ul {
   align-items: center;
   justify-content: center;
 }
-.main-header .header-actions-menu .widhlist-container .qty i, .main-header .header-actions-menu .header-cart-container .qty i {
+.main-header .header-actions-menu .wishlist-container .qty i, .main-header .header-actions-menu .header-cart-container .qty i {
   margin-bottom: 0.2rem;
 }
-.main-header .header-actions-menu .widhlist-container .qty a:hover, .main-header .header-actions-menu .header-cart-container .qty a:hover {
+.main-header .header-actions-menu .wishlist-container .qty a:hover, .main-header .header-actions-menu .header-cart-container .qty a:hover {
   color: #d10024;
 }
 
