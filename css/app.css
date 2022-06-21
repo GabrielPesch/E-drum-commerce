@@ -152,6 +152,24 @@ ul {
   padding: 3 rem 0;
 }
 
+.products-grid {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 2rem 0;
+}
+.products-grid h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.products-grid-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
 .btn {
   padding: 8px 15px;
   height: 40px;
@@ -228,6 +246,53 @@ ul {
 
 #banner-3 {
   background-image: url("../../img/banner-3.jpg");
+}
+
+.products-grid-card {
+  border: 1px solid #b9babc;
+  position: relative;
+  width: 20%;
+  padding: 1rem;
+  transform: 0.4s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.products-grid-card:hover {
+  border-color: #d10024;
+}
+.products-grid-card .label {
+  text-transform: uppercase;
+  border: 1px solid #d10024;
+  color: #d10024;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+.products-grid-card .new {
+  background-color: #d10024;
+  color: #fff;
+}
+.products-grid-card img {
+  width: 100%;
+}
+.products-grid-card .category, .products-grid-card .product-name, .products-grid-card .product-price, .products-grid-card .rating-box, .products-grid-card .btn {
+  margin-bottom: 1rem;
+}
+.products-grid-card .category {
+  margin-top: 1rem;
+  text-transform: uppercase;
+  color: #b9babc;
+}
+.products-grid-card .product-name {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+.products-grid-card .product-price {
+  color: #d10024;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=app.css.map */
